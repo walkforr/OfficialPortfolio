@@ -9,6 +9,30 @@ html {
     margin-top: 100px;
 }
 
+.projectContent, .profileContent, .contactContent {
+    margin-top: 70px;
+}
+
+/* #item1 {
+    padding: 20px;
+    background: grey;
+    border-radius: 10px;
+} */
+
+gear {
+    margin: 20px;
+    width: 100px; 
+    height: 100px;    
+    background: #f00;
+    -webkit-animation: spin 100s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
+
+
 .row2 {
    left: 50px;
 }
@@ -18,12 +42,25 @@ html {
     border-radius: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
     cursor: pointer;
+}
+
+#stock, #addBook, #crypto {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.projectsRow {
+    
 }
 
 #profile p{
@@ -36,23 +73,16 @@ h1 {
 }
 
 #profile {
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    opacity: 0;
-    transition: all 0.2s ease; */
+
 }
 
 
-img {
+.homePix {
     width: 250px;
     border-radius: 10px;
 }
 
-#item1, #item3, #item2 {
+img,h1 {
     -webkit-transformation: 0.3s ease-in-out, -webkit-transformation 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -60,7 +90,7 @@ img {
     margin: 10px;
 }
 
-#item1:hover, #item3:hover, #item2:hover {
+img:hover, h1:hover {
     transform: scale(1.05);
 }
 

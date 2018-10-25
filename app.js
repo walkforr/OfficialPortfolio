@@ -15,23 +15,33 @@ const showProjects = function(){
     $("#profile").hide();
     $("#contact").hide();
 
-    $("img").hide();
-    // $("#item3").hide();
-    // $("#item2").hide();
+    $(".homePix").hide();
 };
 
 const showProfile = function(){
     $("#projects").hide();
     $("#profile").show();
     $("#contact").hide();
+
+    $(".homePix").hide();
 };
 
 const showContact = function(){
     $("#projects").hide();
     $("#profile").hide();
     $("#contact").show();
+
+    $(".homePix").hide();
 };
 
 $("#item1").on("click", showProjects);
 $("#item3").on("click", showProfile);
 $("#item2").on("click", showContact);
+
+//x button
+$("h1").on("click", function(){
+    $("#projects").hide();
+    $("#profile").hide();
+    $("#contact").hide();
+    $(".container").show();
+});
