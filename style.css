@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.row2 {
+   left: 50px;
+}
+
+.one {
+    margin: 0 30px 30px 0;
+}
+
+.two {
+    margin: 0px 30px 0 0;
+}
+
+.four {
+    margin: 0px 0px 30px 30px;
+}
+
+.five {
+    margin: 30px 0px 0px 30px;
+}
+
+.column {
+    border-radius: 10px;
+}
+
+img {
+    width: 250px;
+}
+
+.one, .two, .three, .four, .five {
+    -webkit-transformation: 0.3s ease-in-out, -webkit-transformation 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
+    transform: scale(1.05);
+}
