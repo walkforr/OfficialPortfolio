@@ -19,12 +19,15 @@ html {
     border-radius: 10px;
 } */
 
-gear {
+#gear {
     margin: 20px;
-    width: 100px; 
-    height: 100px;    
-    background: #f00;
+    width: 200px; 
+    height: 200px;    
     -webkit-animation: spin 100s infinite linear;
+}
+
+#item1:hover {
+    background: lightpink;
 }
 
 @-webkit-keyframes spin {
@@ -106,6 +109,9 @@ img:hover, h1:hover {
         flex-direction: column;
         /* margin-left: 70px; */
         justify-content: center;
+    }
+
+    .homePix {
 
     }
 

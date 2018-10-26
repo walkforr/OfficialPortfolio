@@ -40,8 +40,9 @@ $("#item2").on("click", showContact);
 
 //x button
 $("h1").on("click", function(){
+    $(".homePix").show();
     $("#projects").hide();
     $("#profile").hide();
     $("#contact").hide();
-    $(".container").show();
+    
 });
