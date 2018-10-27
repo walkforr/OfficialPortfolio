@@ -16,6 +16,8 @@ const showProjects = function(){
     $("#contact").hide();
 
     $(".homePix").hide();
+    $(".projects").hide();
+    $(".contact").hide();
 };
 
 const showProfile = function(){
@@ -24,6 +26,8 @@ const showProfile = function(){
     $("#contact").hide();
 
     $(".homePix").hide();
+    $(".projects").hide();
+    $(".contact").hide();
 };
 
 const showContact = function(){
@@ -45,7 +49,7 @@ $("h1").on("click", function(){
     $(".homePix").show();
     $(".projects").show();
     $(".contact").show();
-    
+
     $("#projects").hide();
     $("#profile").hide();
     $("#contact").hide();
