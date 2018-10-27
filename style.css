@@ -19,7 +19,14 @@ html {
     border-radius: 10px;
 } */
 
-
+.projectsRow1 {
+    display: flex;
+    justify-content: space-around;
+}
+.projectsRow2 { 
+    display: flex;
+    justify-content: space-around;
+}
 
 .contact, .projects {
     position: relative;
@@ -100,6 +107,9 @@ h1 {
     width: 350px;
     border-radius: 10px;
 }
+.repo1:hover, .repo2:hover, .repo3:hover {
+    text-decoration: underline;
+}
 
 
 #profile p{
@@ -155,6 +165,15 @@ a:hover, a:active { text-decoration: none; color:black }
     body {
     
         
+    }
+
+    .projectsRow1 {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .projectsRow2 { 
+        display: flex;
+        justify-content: space-around;
     }
 
     .container {
