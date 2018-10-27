@@ -163,15 +163,21 @@ a:hover, a:active { text-decoration: none; color:black }
         justify-content: center;
     }
 
-    .homePix, .projects{
+    .homePix{
         width: 370px;
-        height: 420px;;
+        height: 490px;;
         border-radius: 10px;
+    }
+
+    .projects {
+        width: 370px;
+        height: 70px;
+
     }
 
     .projectText {
         left: 60px;
-        top: 40px;
+        top: -135px;
     }
 
     /* #three {
