@@ -28,6 +28,7 @@ const showProfile = function(){
     $(".homePix").hide();
     $(".projects").hide();
     $(".contact").hide();
+
 };
 
 const showContact = function(){

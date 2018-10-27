@@ -23,7 +23,7 @@ html {
 
 .contact, .projects {
     position: relative;
-    height: 250px;
+    height: 333px;
     width: 250px;
     background-color: black;
     border-radius: 10px;
@@ -35,7 +35,7 @@ html {
 
 
 .contactText, .projectText {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 77px;
     position: absolute;
     text-align: center;
@@ -114,6 +114,7 @@ h1 {
 
 .homePix {
     width: 250px;
+    height: 333px;
     border-radius: 10px;
 }
 
@@ -139,6 +140,14 @@ i {
     cursor: pointer;
 }
 
+a { color: black } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color: black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
 
 /* mobile responsive */
 
