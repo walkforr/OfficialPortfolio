@@ -32,6 +32,8 @@ const showContact = function(){
     $("#contact").show();
 
     $(".homePix").hide();
+    $(".projects").hide();
+    $(".contact").hide();
 };
 
 $("#item1").on("click", showProjects);
@@ -41,6 +43,9 @@ $("#item2").on("click", showContact);
 //x button
 $("h1").on("click", function(){
     $(".homePix").show();
+    $(".projects").show();
+    $(".contact").show();
+    
     $("#projects").hide();
     $("#profile").hide();
     $("#contact").hide();
